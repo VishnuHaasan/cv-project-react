@@ -1,7 +1,6 @@
-.App {
-  text-align: center;
+body{
+  background-color: rebeccapurple;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +34,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App{
+  background-color: white;
+  height: 100%;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 5;
+  font-family: monospace;
+}
+
+.section{
+  border: 3px solid greenyellow;
+  height: 450px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+label{
+  display: block;
+  margin: 15px;
+  font-size: 15px;
+}
+
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.section h3{
+  display: block;
+  padding-left: 120px;
+}
+
+.section p{
+  display: block;
+  margin: 25px 15px 25px 15px;
+}
+
+.header{
+  text-align: center;
+}
+
+input{
+  border: 2px solid red;
 }
